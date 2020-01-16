@@ -4,9 +4,11 @@ export default class ColorBox extends Component {
 
   render() {
     return (
+      if (this.props.opacity >= 2) {
       <div className="color-box" style={{opacity: 2}}>
         {/* your conditional code here! */}
       </div>
+      } 
     )
   }
 
