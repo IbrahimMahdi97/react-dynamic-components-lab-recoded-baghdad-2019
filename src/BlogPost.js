@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 // are we missing an import?
+import App from './App.js';
+import Comment from './Comment.js'
 
 export default class BlogPost extends Component {
   render() {
@@ -21,8 +23,8 @@ export default class BlogPost extends Component {
         I was born in it<br/>
         
         <Comment commentText={comments[0]} />
-        <Comment commentText={comments[0]} />
-        <Comment commentText={comments[0]} />
+        <Comment commentText={comments[1]} />
+        <Comment commentText={comments[2]} />
 
       </div>
     );
